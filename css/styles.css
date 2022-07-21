@@ -1,3 +1,5 @@
+/* Variables */
+
 :root{
     --accent-color: #2196F3;
     --color-for-body: #212121;
@@ -6,9 +8,35 @@
     --secondary-font: 'Roboto', sans-serif;
 }
 
-
-
 /* WholePage */
+h1,h2,h3,h4,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 /* ul {list-style: none;}
 a {text-decoration: none;list-style: none;} */
 body{
@@ -22,10 +50,29 @@ body{
 
 .list{
     list-style: none;
+    
 }
 
+.page-header-container{
+    display: flex;
+    align-items: center;
+}
 
+.page-nav{
+    display: flex;
+    align-items: center;
+}
 
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts-container {
+    display: flex;
+    align-items: center;
+}
+.nav:()
 /* Navigation */
 
 /* Logo */
@@ -39,6 +86,7 @@ body{
         color: var(--accent-color);
         text-decoration: none;
         list-style: none;
+        margin-right: 93px;
     }
 .studio-header{
     color: #000000;
@@ -138,7 +186,6 @@ footer {
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        cursor: pointer;
 }
 
 /* Features  */
