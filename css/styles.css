@@ -36,14 +36,14 @@ button{
     padding-right: 15px;
 }
 
-
-/* ul {list-style: none;}
-a {text-decoration: none;list-style: none;} */
 body{
     font-family: var(--secondary-font);
     color: var(--color-for-body);
+}
 
-
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Header */
@@ -177,6 +177,8 @@ footer {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
 }
 
 .title-name{
@@ -188,11 +190,10 @@ footer {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
-        padding-top: 200px;
-        padding-bottom: 30px;
         width: 696px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30px;
 }
 
 .button{
@@ -218,13 +219,15 @@ footer {
 
 .company-characteristics{
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    /* margin-top: 94px;
+    margin-bottom: 94px; */
+    gap:30px
+
 }
 
-.features:not(:last-child){
-    margin-right: 30px;
-}
+/* .features:not(:last-child){
+    margin-right: 30px; */
+/* } */
 /* Features  */
 .hidden-features{
         font-style: normal;
@@ -244,17 +247,14 @@ footer {
 }
 
 /* Field of study */
-.optional{
-    margin-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .company-option{
     display: flex;
+    gap: 30px;
 }
-.foto-option:not(:last-child){
-    margin-right: 30px;
-}
+/* .foto-option:not(:last-child){
+    margin-right: 30px; */
+/* } */
 .banner{
     font-style: normal;
         font-weight: 700;
@@ -266,10 +266,10 @@ footer {
 }
 
 /* team  */
-.hiden-team{
+/* .hiden-team{
     padding-top: 94px;
     margin-bottom: 50px;
-}
+} */
 .name{
         font-style: normal;
         font-weight: 500;
@@ -298,14 +298,15 @@ footer {
 }
 .team{
     display: flex;
+    gap: 30px;
 }
 
 .team-members{
     background-color: #FFFFFF;
 }
-.team-members:not(:last-child){
+/* .team-members:not(:last-child){
     margin-right: 30px;
-}
+} */
 .foto-teams{
     margin-bottom: 30px;
 }
@@ -356,7 +357,7 @@ footer{
 .navigation{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
+    /* margin-top: 94px; */
     margin-bottom: 50px;
 }
 
@@ -389,13 +390,14 @@ footer{
 .presentation{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
 
-.navigation-project{
+/* .navigation-project{
     margin-top: 94px;
     margin-bottom: 94px;
-}
+} */
 
 /* Projec  */
 .project{
