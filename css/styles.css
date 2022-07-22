@@ -241,15 +241,10 @@ footer {
 }
 .company-characteristics{
     display: flex;
-    /* margin-top: 94px;
-    margin-bottom: 94px; */
     gap:30px
 
 }
 
-/* .features:not(:last-child){
-    margin-right: 30px; */
-/* } */
 /* Features  */
 .features{
     width: 270px;
@@ -278,9 +273,7 @@ footer {
     display: flex;
     gap: 30px;
 }
-/* .foto-option:not(:last-child){
-    margin-right: 30px; */
-/* } */
+
 .banner{
     font-style: normal;
         font-weight: 700;
@@ -292,10 +285,6 @@ footer {
 }
 
 /* team  */
-/* .hiden-team{
-    padding-top: 94px;
-    margin-bottom: 50px;
-} */
 
 .name-profession{
 padding-top: 30px;
@@ -317,8 +306,6 @@ padding-bottom: 30px;
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
-        /* margin-top: 10px;
-        margin-bottom: 30px; */
 }
 
 .our-team{
@@ -338,10 +325,6 @@ padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
-/* .team-members:not(:last-child){
-    margin-right: 30px;
-} */
-
 
 /* Footer */
 footer{
@@ -422,11 +405,6 @@ footer{
     gap: 30px;
 }
 
-/* .navigation-project{
-    margin-top: 94px;
-    margin-bottom: 94px;
-} */
-
 /* Projec  */
 .projects{
     background-color: #FFFFFF;
@@ -437,9 +415,7 @@ footer{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        /* margin-top: 20px;
-        margin-bottom: 4px;
-        margin-left: 24px; */
+
 }
 
 .sphere{
@@ -447,8 +423,6 @@ footer{
         line-height: 1.9;
         letter-spacing: 0.03em;
         color: #757575;
-        /* margin-bottom: 20px;
-        margin-left: 24px; */
 }
 
 .employees-card-content-wrapper{
