@@ -71,13 +71,23 @@ body{
 .header-contacts-container {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
-.nav:()
+.menu-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+
 /* Navigation */
 
 /* Logo */
 .logo{
-    font-family: var(--primary-font);
+        font-family: var(--primary-font);
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
@@ -122,6 +132,10 @@ body{
 color: var(--accent-color);
 }
 
+.email{
+    margin-right: 40px;
+}
+
 /* Footer */
 
 footer {
@@ -159,6 +173,10 @@ footer {
 /* Main */
 .title{
     background-color: var(--background-color-dark);
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-name{
@@ -170,6 +188,11 @@ footer {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
+        padding-top: 200px;
+        padding-bottom: 30px;
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .button{
@@ -182,12 +205,26 @@ footer {
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-        
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
+.company-characteristics{
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.features:not(:last-child){
+    margin-right: 30px;
+}
 /* Features  */
 .hidden-features{
         font-style: normal;
@@ -196,6 +233,7 @@ footer {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-bottom: 10px;
 }
 
 .paragraph-features{
@@ -206,6 +244,17 @@ footer {
 }
 
 /* Field of study */
+.optional{
+    margin-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company-option{
+    display: flex;
+}
+.foto-option:not(:last-child){
+    margin-right: 30px;
+}
 .banner{
     font-style: normal;
         font-weight: 700;
@@ -213,9 +262,14 @@ footer {
         line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 50px;
 }
 
 /* team  */
+.hiden-team{
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
 .name{
         font-style: normal;
         font-weight: 500;
@@ -231,19 +285,55 @@ footer {
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-top: 10px;
+        margin-bottom: 30px;
 }
 
 .our-team{
     background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team{
+    display: flex;
+}
+
+.team-members{
+    background-color: #FFFFFF;
+}
+.team-members:not(:last-child){
+    margin-right: 30px;
+}
+.foto-teams{
+    margin-bottom: 30px;
 }
 
 /* Footer */
 footer{
     background-color: var(--background-color-dark);
+    width: 1600px;
+    height: 252px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-footer{
+    padding-top: 60px;
 }
 
 .studio-footer{
     color:#FFFFFF;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.find:not(:last-child){
+    margin-bottom: 9px;
 }
 
 .addres{
@@ -263,6 +353,17 @@ footer{
 }
 
 /* Portfolio */
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.button-navigation:not(:last-child){
+    margin-right: 8px;
+}
+
 .button-filter{
         font-style: normal;
         font-weight: 500;
@@ -271,6 +372,10 @@ footer{
         text-align: center;
         letter-spacing: 0.03em;
         font-family: var(--secondary-font);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
 }
 
 .button-filter:hover,
@@ -281,6 +386,17 @@ footer{
         border-radius: 4px;
 }
 
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation-project{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 /* Projec  */
 .project{
         font-style: normal;
@@ -288,6 +404,8 @@ footer{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-bottom: 4px;
 }
 
 .sphere{
@@ -295,5 +413,5 @@ footer{
         line-height: 1.9;
         letter-spacing: 0.03em;
         color: #757575;
-        
+        margin-bottom: 20px;
 }
