@@ -96,7 +96,7 @@ body{
     padding-bottom: 25px;
     background: #FFFFFF;
     width: 1600px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     margin-left: auto;
         margin-right: auto;
 }
@@ -236,6 +236,9 @@ footer {
         margin-right: auto;
 }
 
+.section-hidden-inventori{
+    padding-top: 94px;
+}
 .company-characteristics{
     display: flex;
     /* margin-top: 94px;
@@ -248,6 +251,10 @@ footer {
     margin-right: 30px; */
 /* } */
 /* Features  */
+.features{
+    width: 270px;
+}
+
 .hidden-features{
         font-style: normal;
         font-weight: 700;
@@ -289,6 +296,11 @@ footer {
     padding-top: 94px;
     margin-bottom: 50px;
 } */
+
+.name-profession{
+padding-top: 30px;
+padding-bottom: 30px;
+}
 .name{
         font-style: normal;
         font-weight: 500;
@@ -296,6 +308,7 @@ footer {
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 10px;
 }
 
 .profession{
@@ -304,8 +317,8 @@ footer {
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-top: 10px;
-        margin-bottom: 30px;
+        /* margin-top: 10px;
+        margin-bottom: 30px; */
 }
 
 .our-team{
@@ -328,9 +341,7 @@ footer {
 /* .team-members:not(:last-child){
     margin-right: 30px;
 } */
-.foto-teams{
-    margin-bottom: 30px;
-}
+
 
 /* Footer */
 footer{
@@ -339,10 +350,6 @@ footer{
     height: 252px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.logo-footer{
-    padding-top: 60px;
 }
 
 .studio-footer{
@@ -430,9 +437,9 @@ footer{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        margin-top: 20px;
+        /* margin-top: 20px;
         margin-bottom: 4px;
-        margin-left: 24px;
+        margin-left: 24px; */
 }
 
 .sphere{
@@ -440,10 +447,16 @@ footer{
         line-height: 1.9;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-bottom: 20px;
-        margin-left: 24px;
+        /* margin-bottom: 20px;
+        margin-left: 24px; */
 }
 
 .employees-card-content-wrapper{
     border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
